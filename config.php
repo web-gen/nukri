@@ -10,4 +10,6 @@ $username = 'root';
 
 $password = '';
 
+echo 'baga';
+
 ?>
