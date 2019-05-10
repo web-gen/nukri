@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="processor.php" method="POST" enctype="multipart/form-data" target="blank">
+
+        <label for="title">name</label><br>
+        <input type="text" id="title" name="title"><br><br>
+
+        <label for="about">description</label><br>
+        <textarea name="about" id="about" cols="30" rows="10"></textarea><br><br>
+
+        <label for="location_1">location</label><br>
+        <textarea name="location_1" id="location_1" cols="30" rows="10"></textarea><br><br>
+
+        <label for="team">team</label><br>
+        <textarea name="team" id="team" cols="30" rows="10"></textarea><br><br>
+
+        <label for="location_2">location</label><br>
+        <input type="text" id="location_2" name="location_2"><br><br>
+
+        <label for="area">area</label><br>
+        <input type="text" id="area" name="area"><br><br>
+
+        <label for="budget">budget</label><br>
+        <input type="text" id="budget" name="budget"><br><br>
+
+        <label for="current_status">status</label><br>
+        <input type="text" id="current_status" name="current_status"><br><br>
+
+        <label for="client">client</label><br>
+        <input type="text" id="client" name="client"><br><br>
+
+        <label for="consultants">consultants</label><br>
+        <input type="text" id="consultants" name="consultants"><br><br>
+
+        <label for="image">file</label><br>
+        <input type="file" id="image" name="image"><br><br>
+
+        <button type="submit" name="add">add</button>
+
+    </form>
+</body>
+</html>
